@@ -61,7 +61,7 @@ export default function App() {
         >
           <div className="w-32 h-32 rounded-full border-4 border-white/10 p-1 bg-white/5 shadow-2xl mb-4 overflow-hidden mx-auto flex items-center justify-center">
             <img 
-              src="https://raw.githubusercontent.com/alexmonarca/iasd_sb/refs/heads/main/logo-IASD-2026-SB.png?token=GHSAT0AAAAAADSH7WLQD3RF6HCZHFZX5WSE2NIHABQ" 
+              src="https://raw.githubusercontent.com/alexmonarca/iasd_sb/main/logo-IASD-2026-SB.png" 
               alt="IASD Logo" 
               className="w-full h-full object-contain p-1"
               referrerPolicy="no-referrer"
