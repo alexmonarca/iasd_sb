@@ -18,7 +18,7 @@ const links = [
   {
     title: "Estudo Bíblico",
     description: "Aprenda mais sobre a Bíblia conosco",
-    url: "https://www.biblia.com.br/",
+    url: "https://wa.me/5512982000062?text=Quero%20um%20estudo%20b%C3%ADblico",
     icon: <BookOpen className="w-6 h-6" />,
     color: "bg-emerald-600"
   },
@@ -32,14 +32,14 @@ const links = [
   {
     title: "Instagram IASD São Borja",
     description: "Acompanhe nosso dia a dia",
-    url: "https://www.instagram.com/iasdsaoborja/",
+    url: "https://www.instagram.com/iasd_sb/",
     icon: <Instagram className="w-6 h-6" />,
     color: "bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-600"
   },
   {
     title: "WhatsApp",
     description: "Fale conosco agora mesmo",
-    url: "https://wa.me/5555999999999", // Placeholder for São Borja
+    url: "https://wa.me/556182190037",
     icon: <MessageCircle className="w-6 h-6" />,
     color: "bg-green-500"
   }
@@ -59,12 +59,11 @@ export default function App() {
           transition={{ duration: 0.6 }}
           className="mb-8 text-center"
         >
-          <div className="w-32 h-32 rounded-full border-4 border-white/10 p-1 bg-gradient-to-br from-indigo-600 to-purple-700 shadow-2xl mb-4 overflow-hidden mx-auto">
-            {/* Using a standard IASD logo placeholder - replace with actual logo if needed */}
+          <div className="w-32 h-32 rounded-full border-4 border-white/10 p-1 bg-white/5 shadow-2xl mb-4 overflow-hidden mx-auto flex items-center justify-center">
             <img 
-              src="https://www.adventistas.org/pt/wp-content/uploads/sites/2/2013/05/logo-iasd-vertical.png" 
+              src="https://raw.githubusercontent.com/alexmonarca/iasd_sb/refs/heads/main/logo-IASD-2026-SB.png?token=GHSAT0AAAAAADSH7WLQD3RF6HCZHFZX5WSE2NIHABQ" 
               alt="IASD Logo" 
-              className="w-full h-full object-contain p-2 brightness-0 invert"
+              className="w-full h-full object-contain p-1"
               referrerPolicy="no-referrer"
             />
           </div>
@@ -85,7 +84,7 @@ export default function App() {
           </div>
           <div className="flex items-center gap-1.5">
             <Clock className="w-3.5 h-3.5" />
-            <span>Sábados às 09h</span>
+            <span>Sáb. 09h | Qua. 19:30</span>
           </div>
         </motion.div>
 
