@@ -11,7 +11,8 @@ import {
   MessageCircle, 
   ExternalLink,
   MapPin,
-  Clock
+  Clock,
+  Smartphone
 } from "lucide-react";
 
 const links = [
@@ -42,6 +43,13 @@ const links = [
     url: "https://wa.me/556182190037",
     icon: <MessageCircle className="w-6 h-6" />,
     color: "bg-green-500"
+  },
+  {
+    title: "Baixar App NT Play",
+    description: "Filmes, séries, estudos e TV Novo Tempo grátis",
+    url: "https://ntplay.com/",
+    icon: <Smartphone className="w-6 h-6" />,
+    color: "bg-indigo-600"
   }
 ];
 
